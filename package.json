@@ -1,0 +1,30 @@
+{
+  "name": "next-13-template",
+  "version": "1.0.0",
+  "description": "My preferred starting point for Next.js 13 projects",
+  "author": "Erik Lopez",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest --watch"
+  },
+  "dependencies": {
+    "next": "^13.1.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.26",
+    "eslint-config-next": "^13.1.2",
+    "eslint-config-prettier": "^8.6.0",
+    "jest": "^29.3.1",
+    "jest-environment-jsdom": "^29.3.1",
+    "sass": "^1.57.1",
+    "typescript": "4.9.4"
+  }
+}
